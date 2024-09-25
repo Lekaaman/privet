@@ -7,12 +7,6 @@ a:hover{
     color: rgb(19, 186, 247);
 }
 
-nav{
-    background: rgb(223, 223, 223);
-    border:rgb(169, 13, 65);
-    /* border - обводка */
-}
-
 .pic1{
     width: 25%;
     /* ширина */
@@ -20,4 +14,41 @@ nav{
     /* внешний отступ */
     border-radius: 10px;
     /* скругление углов */
+}
+
+article{
+    width: 700px; 
+    margin: 150px auto;
+}
+
+h1{
+    color: rgb(167, 0, 89);
+    font-size: 38px;
+    margin-top: 66 px;
+    line-height: 45px;
+    background: rgb(255, 247, 209);
+}
+
+h1 + hr + p + p{
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 22px;
+    line-height: 32px;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 32px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+h2 + blockquote, h2 + p{
+    margin-top: 8px;
+}
+
+blockquote{
+    font-style: italic;
+    margin-left: 100px;
+    margin-top: 20px;
 }
